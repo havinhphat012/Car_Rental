@@ -1,0 +1,352 @@
+.carousel-item img {
+    height: 75vh;
+}
+
+.header-main_content {
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+/* ---product--- */
+h4.text-center {
+    font-weight: 500;
+}
+
+h5.card-title {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #3ac5c9;
+    margin-bottom: 36px;
+}
+
+.btn-dangky {
+    border: 1px solid #3ac5c9;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.text-primary {
+    color: #fff !important;
+    font-weight: 600;
+    background-color: #cd1818;
+    border: 1px solid #cd1818;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+a.text-page_exam {
+    font-size: 1.2rem;
+    background-color: #b5b9b9;
+    color: #333;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+a.text-page_exam:hover {
+    background-color: #3ac5c9;
+    color: #fff;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+/* ---------------------------feature: Tính năng nổi bật----------------- */
+.container-feature {
+    position: relative;
+}
+
+.container-feature_content__img {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 35.333%;
+    justify-content: center;
+}
+
+.container-feature_content__img img {
+    margin-bottom: 14px;
+    padding: 16px;
+}
+
+.container-feature_header {
+    margin-top: 64px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container-feature_exam {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 15.6667%;
+}
+
+.container-feature_content {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 80.334%;
+    justify-content: center;
+}
+
+/* ----------------------------Kết thúc feature-------------------------------- */
+
+/* ----------------------------------container guide: hướng dẫn đặt xe-------------------- */
+.container-guide {
+    position: relative;
+}
+
+.container-guide_content__img {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 33.333%;
+}
+
+.container-guide_content__img img {
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+.container-guide_header {
+    margin-top: 64px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.container-guide_content {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100%;
+}
+
+/* ---------------------------------kết thúc hướng dẫn-------------------------------------- */
+
+/* -----------------------------------infomation--------------------------------- */
+.container-infomation {
+    height: auto;
+    margin-top: 50px;
+}
+
+.container-infomation_img {
+    /* background-image: url(../img/infomation.gif);
+    background-repeat: no-repeat; */
+    width: 100%;
+    background-position: center bottom;
+    height: 70vh;
+}
+
+.container-infomation_img img {
+    width: 100%;
+}
+
+.container-infomation_header {
+    padding-top: 24px;
+    margin-top: 104px;
+    font-size: 3.3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 32%;
+}
+
+.container-infomation_decription {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-left: 32%;
+    padding-top: 8px;
+}
+
+/* -----------------------------------end infomation----------------------------------- */
+.footer {
+    background-color: #141414;
+    margin: 0;
+    font-size: 1.3rem;
+    min-height: 160px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer.text-center {
+    margin-top: -12px;
+}
+
+.footer-with-search {
+    display: flex;
+    width: 40%;
+}
+
+.footer-logo {
+    display: block;
+}
+
+.footer-h5 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.footer-lable {
+    color: var(--white-color);
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.footer-lable:hover {
+    color: #3ac5c9;
+}
+
+.col ul nav li a {
+    text-decoration: none;
+}
+
+.footer__logo {
+    width: 15%;
+    z-index: 4;
+}
+
+.footer__logo-link {
+    text-decoration: none;
+    outline: none;
+}
+
+.footer__logo-link img {
+    width: 110px;
+    padding: 0px;
+}
+
+.footer .footer-main {
+    position: relative;
+    max-width: 1260px;
+    margin: -1px auto;
+    padding: 50px 10px 0;
+}
+
+.footer-link_text a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 12px;
+}
+
+.footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    position: relative;
+    height: 22vh;
+}
+
+.footer.footer-info {
+    background-color: #000;
+    padding: 40px 0;
+}
+
+.footer-main_end {
+    position: relative;
+    width: 100%;
+    margin: -1px auto;
+    padding: 50px 10px 0;
+    font-size: 1.5rem;
+}
+
+.col-1 {
+    float: left;
+    width: 38%;
+    text-align: center;
+}
+.col-2 {
+    float: left;
+    width: 62%;
+}
+
+.site {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 132px;
+}
+
+.address {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 32px;
+}
+
+.footer-connect {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 600;
+    padding: 48px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.footer-connect a {
+    color: #fff;
+}
+
+.footer-connect_iteam {
+    padding-left: 18px;
+    color: #fff;
+}
+
+.footer-connect_iteam:hover {
+    color: #3ac5c9;
+}
+
+.footer-pay_header {
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 24px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-pay {
+    width: 60%;
+    padding-bottom: 24px;
+}
+
+.footer-pay_iteam {
+    width: 110%;
+}
+
+.footer-pay_iteam img {
+    width: 23%;
+    padding: 1px;
+}
+
+.l-4 {
+    display: block;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.l-7 {
+    display: block;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+
+.footer-gmail {
+    margin-left: -22px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* -----------------------------------end footer--------------------------------------- */
